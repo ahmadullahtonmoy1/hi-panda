@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript 0.0</title>
+    <style>
+        button{
+            padding: 5px 10px;
+            background-color: lightsalmon;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
 </head>
 <body>
     <h1>Let's Practice JavaScript</h1>
+    <h2 id="text1">Click Button and See Magic</h2>
+
+    <button id="btn1" type="button" onclick='document.getElementById("text1").innerHTML = "Boooooooooom"'>
+    Boom
+    </button>
+
+    <button id="btn_my_name" type="button" onclick="document.getElementById('text1').innerHTML = 'Ahmad'">
+        My Name is
+    </button>
+    <button id="btn_my_age" type="button" onclick="document.getElementById('text1').innerHTML = '26'">
+        My age is
+    </button>
 </body>
 </html>
